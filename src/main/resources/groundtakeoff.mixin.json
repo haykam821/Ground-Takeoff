@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.groundtakeoff.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"FireworkItemMixin",
+		"FireworkRocketEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

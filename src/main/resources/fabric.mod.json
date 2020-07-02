@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "groundtakeoff",
+	"version": "${version}",
+	"name": "Ground Takeoff",
+	"description": "Allows firework boosting with an elytra while on the ground.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Ground-Takeoff#readme",
+		"issues": "https://github.com/haykam821/Ground-Takeoff/issues"
+	},
+	"mixins": [
+		"groundtakeoff.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/groundtakeoff/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
